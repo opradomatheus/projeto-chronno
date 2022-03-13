@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Projeto de pokedéx da MapaDev Week do canal Dev Em Dobro"
+    />
+
+<!-- Arquivo feito para resetar as propriedades padrões do CSS -->
+
+<link rel="stylesheet" href="src/styles/reset.css">
+
+<!-- Arquivo para a estilização geral da página -->    
+
+
+<link rel="stylesheet" href="src/styles/global.css" />
+
+
+<!-- Arquivo para a estilização dos cards -->    
+
+<link rel="stylesheet" href="src/styles/cartao.css" />
+
+<!-- Arquivo para a estilização da lista -->    
+
+<link rel="stylesheet" href="src/styles/listagem.css" />
+
+
+<!-- Arquivo para responsividade do site -->    
+
+<link rel="stylesheet" href="src/styles/responsivo.css" />
+
+
+<!-- Link com as APIs do Google fonts -->    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <title>Pokédex - MapaDev Week</title>
+  </head>
+  <body>
+
+<!-- Tag semântica main contendo o conteudo principal do site -->
+
+    <main>
+
+<!-- Div container que engloba todo o conteúdo do site -->
+        
+      <div class="pokedex">
+
+<!-- Div que engloba todos os cartões -->
+
+        <div class="cartoes-pokemon">
+
+
+<!-- Card Pikachu -->
+
+
+          <div class="cartao-pokemon aberto tipo-eletrico" id=cartao-pikachu>
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Pikachu</h2>
+                <span class="numero">#001</span>
+              </div>
+              <span class="tipo">Elétrico</span>
+
+              <div class="cartao-imagem">
+                <img src="src/img/pikachu.png" alt="Foto do Pikachu" />
+              </div>
+            </div>
+
+              <div class="cartao-informacoes">
+                <div class="status">
+                  <h3>Status</h3>
+
+                  <ul>
+                    <li>HP: 300</li>
+                    <li>Ataque: 600</li>
+                    <li>Defesa: 500</li>
+                    <li>Velocidade: 300</li>
+                    <li>Total: 1700</li>
+                  </ul>
+                </div>
+
+                <div class="habilidades">
+                  <h3>Habilidades</h3>
+
+                  <ul>
+                    <li>Cabeçada</li>
+                    <li>Choque do trovão</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+
+<!-- Card Bulbasaur -->
+
+
+          <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Bulbasaur</h2>
+                <span class="numero">#002</span>
+              </div>
+              <span class="tipo">Grama</span>
+
+              <div class="cartao-imagem">
+                <img src="src/img/bulbasaur.png" alt="Foto do Bulbasaur" />
+              </div>
+            </div>
+
+              <div class="cartao-informacoes">
+                <div class="status">
+                  <h3>Status</h3>
+
+                  <ul>
+                    <li>HP: 300</li>
+                    <li>Ataque: 600</li>
+                    <li>Defesa: 500</li>
+                    <li>Velocidade: 300</li>
+                    <li>Total: 1700</li>
+                  </ul>
+                </div>
+
+                <div class="habilidades">
+                  <h3>Habilidades</h3>
+
+                  <ul>
+                    <li>Cabeçada</li>
+                    <li>Choque do trovão</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+
+<!-- Card Charmander -->
+
+
+          <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Charmander</h2>
+                <span class="numero">#003</span>
+              </div>
+              <span class="tipo">Fogo</span>
+
+              <div class="cartao-imagem">
+                <img src="src/img/charmander.png" alt="Foto do Charmander" />
+              </div>
+            </div>
+
+              <div class="cartao-informacoes">
+                <div class="status">
+                  <h3>Status</h3>
+
+                  <ul>
+                    <li>HP: 300</li>
+                    <li>Ataque: 600</li>
+                    <li>Defesa: 500</li>
+                    <li>Velocidade: 300</li>
+                    <li>Total: 1700</li>
+                  </ul>
+                </div>
+
+                <div class="habilidades">
+                  <h3>habilidades</h3>
+
+                  <ul>
+                    <li>Cabeçada</li>
+                    <li>Choque do trovão</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+
+<!-- Card Gyarados -->
+
+
+          <div class="cartao-pokemon tipo-agua" id="cartao-gyarados">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Gyarados</h2>
+                <span class="numero">#004</span>
+              </div>
+              <span class="tipo">Aquático</span>
+
+              <div class="cartao-imagem">
+                <img src="src/img/gyarados.png" alt="Foto do Gyarados" />
+              </div>
+            </div>
+
+              <div class="cartao-informacoes">
+                <div class="status">
+                  <h3>Status</h3>
+
+                  <ul>
+                    <li>HP: 300</li>
+                    <li>Ataque: 600</li>
+                    <li>Defesa: 500</li>
+                    <li>Velocidade: 300</li>
+                    <li>Total: 1700</li>
+                  </ul>
+                </div>
+
+                <div class="habilidades">
+                  <h3>habilidades</h3>
+
+                  <ul>
+                    <li>Cabeçada</li>
+                    <li>Choque do trovão</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+
+
+<!-- Card Gengar -->
+
+
+          <div class="cartao-pokemon tipo-trevas" id="cartao-gengar">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Gengar</h2>
+                <span class="numero">#005</span>
+              </div>
+              <span class="tipo">Sombrio</span>
+
+              <div class="cartao-imagem">
+                <img src="src/img/gengar.png" alt="Foto do Gengar" />
+              </div>
+            </div>
+
+              <div class="cartao-informacoes">
+                <div class="status">
+                  <h3>Status</h3>
+
+                  <ul>
+                    <li>HP: 300</li>
+                    <li>Ataque: 600</li>
+                    <li>Defesa: 500</li>
+                    <li>Velocidade: 300</li>
+                    <li>Total: 1700</li>
+                  </ul>
+                </div>
+
+                <div class="habilidades">
+                  <h3>habilidades</h3>
+
+                  <ul>
+                    <li>Cabeçada</li>
+                    <li>Choque do trovão</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+
+
+<!-- Card Dragonite -->
+
+
+          <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Dragonite</h2>
+                <span class="numero">#006</span>
+              </div>
+              <span class="tipo">Dragão</span>
+
+              <div class="cartao-imagem">
+                <img src="src/img/dragonite.png" alt="Foto do Dragonite" />
+              </div>
+            </div>
+
+              <div class="cartao-informacoes">
+                <div class="status">
+                  <h3>Status</h3>
+
+                  <ul>
+                    <li>HP: 300</li>
+                    <li>Ataque: 600</li>
+                    <li>Defesa: 500</li>
+                    <li>Velocidade: 300</li>
+                    <li>Total: 1700</li>
+                  </ul>
+                </div>
+
+                <div class="habilidades">
+                  <h3>habilidades</h3>
+
+                  <ul>
+                    <li>Cabeçada</li>
+                    <li>Choque do trovão</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+
+<!-- Navegação do menu de seleção dos pokémons -->
+
+
+        <nav class="listagem">
+            <ul>
+
+<!-- Cabeça do Pikachu -->
+
+                <li class="pokemon ativo" id="pikachu"> 
+                    <img src="src/img/cabeca-pikachu.png" alt="Cabeça do Pikachu">
+                    <span>Pikachu</span>
+                </li>
+
+<!-- Cabeça do Bulbasaur -->               
+
+                <li class="pokemon" id="bulbasaur">
+                    <img src="src/img/cabeca-bulbasaur.png" alt="Cabeça do Bulbasaur">
+                    <span>Bulbasaur</span>
+                </li>
+
+<!-- Cabeça do Charmander -->       
+
+                <li class="pokemon" id="charmander">
+                    <img src="src/img/cabeca-charmander.png" alt="Cabeça do Charmander">
+                    <span>Charmander</span>
+                </li>
+
+<!-- Cabeça do Gyarados -->    
+
+                <li class="pokemon" id="gyarados">
+                    <img src="src/img/cabeca-gyarados.png" alt="Cabeça do Gyarados">
+                    <span>Gyarados</span>
+                </li>
+
+<!-- Cabeça do Gengar -->  
+
+                <li class="pokemon" id="gengar">
+                    <img src="src/img/cabeca-gengar.png" alt="Cabeça do Gengar">
+                    <span>Gengar</span>
+                </li>
+
+<!-- Cabeça do Dragonite --> 
+
+                <li class="pokemon" id="dragonite"> 
+                    <img src="src/img/cabeca-dragonite.png" alt="Cabeça do Dragonite">
+                    <span>Dragonite</span>
+                </li>
+
+
+
+            </ul>
+        </nav>
+
+      </div>
+    </main>
+
+    <!-- Script liga o js ao HTML -->
+
+    <script src="src/js/index.js"></script>
+
+  </body>
+</html>

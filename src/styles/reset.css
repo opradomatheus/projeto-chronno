@@ -1,0 +1,19 @@
+/* Arquivo feito para resetar o CSS da página */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    -webkit-user-drag: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
