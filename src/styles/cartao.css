@@ -50,6 +50,8 @@
 {
     width: 350px;
     height: 350px;
+    display: flex;
+    justify-content: center;
     /* background-color: blue; */
 }
 
@@ -111,30 +113,30 @@
 
 .tipo-fogo
 {
-    background-color: #ed8a88;
+    background-color: #ACEFB1;
 }
 
 .tipo-eletrico
 {
-    background-color: #fcc719;
+    background-color: #E86441;
 }
 
 .tipo-agua
 {
-    background-color: #76befe;
+    background-color: #862769;
 }
 
 .tipo-grama
 {
-    background-color: #49d0b0;
+    background-color: #FDC57C;
 }
 
 .tipo-trevas
 {
-    background-color: #ba68c8;
+    background-color: #CCC459;
 }
 
 .tipo-dragao
 {
-    background-color: #c29791;
+    background-color: #b58b5f;
 }

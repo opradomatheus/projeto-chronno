@@ -13,16 +13,18 @@
     background-color: #6b727a;
     color: #fff;
     padding: 0 5px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
     min-height: 70px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
     transition: 0.15s ease-in-out;
     -webkit-transition: 0.15s ease-in-out;
     -moz-transition: 0.15s ease-in-out;
     -ms-transition: 0.15s ease-in-out;
     -o-transition: 0.15s ease-in-out;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 
@@ -52,6 +54,6 @@
 
 .listagem .pokemon.ativo
 {
-    background-color: #fa6668;
+    background-color: #404244;
 }
 
