@@ -40,10 +40,10 @@ listaSelecaoPokemons.forEach(pokemon => {
         const idPokemonSelecionado = 
         pokemon.attributes.id.value
 
-        const idDoCartaoPokemonParaAbrir = 'cartao-' + idPokemonSelecionado
+        const idDoCartaoParaAbrir = 'cartao-' + idPokemonSelecionado
 
         const cartaoPokemonParaAbrir = 
-        document.getElementById(idDoCartaoPokemonParaAbrir)
+        document.getElementById(idDoCartaoParaAbrir)
 
         cartaoPokemonParaAbrir.classList.add('aberto')
 

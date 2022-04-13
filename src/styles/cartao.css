@@ -111,32 +111,32 @@
 
 /* Estilos de cor de cada tipo de Pokémon */
 
-.tipo-fogo
+.tipo-curandeira
 {
     background-color: #ACEFB1;
 }
 
-.tipo-eletrico
+.tipo-fogo
 {
     background-color: #E86441;
 }
 
-.tipo-agua
+.tipo-fire
 {
     background-color: #862769;
 }
 
-.tipo-grama
+.tipo-robo
 {
     background-color: #FDC57C;
 }
 
-.tipo-trevas
+.tipo-luz
 {
     background-color: #CCC459;
 }
 
-.tipo-dragao
+.tipo-pedra
 {
     background-color: #b58b5f;
 }
