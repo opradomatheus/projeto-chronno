@@ -27,8 +27,8 @@ const Card =
 document.querySelectorAll('.cartao-personagem')
 
 
-listaSelecaoPersonagens.forEach(pokemon => {
-    pokemon.addEventListener('click', () =>{
+listaSelecaoPersonagens.forEach(chronno => {
+    chronno.addEventListener('click', () =>{
         //Remover a classe "aberto" só do cartão que está aberto.
 
         const cartaoPokemonAberto = document.querySelector('.aberto')
