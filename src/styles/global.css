@@ -12,7 +12,7 @@ main
     justify-content: center;
 }
 
-.pokedex
+.chronnodex
 {
     display: flex;
     gap: 30px;

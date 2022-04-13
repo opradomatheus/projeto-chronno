@@ -1,4 +1,4 @@
-.cartao-pokemon 
+.cartao-personagem 
 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -10,18 +10,18 @@
   display: none;
 }
 
-.cartao-pokemon .cartao-topo
+.cartao-personagem .cartao-topo
 {
     /* background-color: red; */
     padding: 30px 40px 0;
 }
 
-.cartao-pokemon .nome
+.cartao-personagem .nome
 {
     margin-bottom: 5px;
 }
 
-.cartao-pokemon .tipo
+.cartao-personagem .tipo
 {
     font-size: 12px;
     background-color: #FFF;
@@ -38,7 +38,7 @@
 }
 
 
-.cartao-pokemon .detalhes
+.cartao-personagem .detalhes
 {
     color: #FFF;
     display: flex;
@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-.cartao-pokemon .cartao-imagem
+.cartao-personagem .cartao-imagem
 {
     width: 350px;
     height: 350px;
@@ -55,12 +55,12 @@
     /* background-color: blue; */
 }
 
-.cartao-pokemon img
+.cartao-personagem img
 {
     max-height: 100%;
 }
 
-.cartao-pokemon .cartao-informacoes
+.cartao-personagem .cartao-informacoes
 {
     background-color: #FFF;
 
@@ -76,7 +76,7 @@
     
 }
 
-.cartao-pokemon .cartao-informacoes h3
+.cartao-personagem .cartao-informacoes h3
 {
     font-size: 20px;
 
@@ -84,18 +84,19 @@
     border-bottom: 1px solid #6b727a;
 }
 
-.cartao-pokemon .cartao-informacoes 
+.cartao-personagem .cartao-informacoes 
 .status, 
-.cartao-pokemon .cartao-informacoes 
+.cartao-personagem .cartao-informacoes 
 .habilidades
 {
     padding: 0 10px;
     width: 180px;
+    text-transform: capitalize;
 }
 
-.cartao-pokemon .cartao-informacoes 
+.cartao-personagem .cartao-informacoes 
 .habilidades ul li, 
-.cartao-pokemon .cartao-informacoes 
+.cartao-personagem .cartao-informacoes 
 .status ul li
 {
     border-bottom: 1px solid #c3c4c5;
@@ -104,7 +105,7 @@
     font-size: 15px;
 }
 
-.cartao-pokemon.aberto
+.cartao-personagem.aberto
 {
     display: block;
 }

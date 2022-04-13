@@ -20,14 +20,14 @@ Vamos utilizar o evento de clique feito de usuário  na listagem dos pokémon
 
 //Variáveis que iremos utilizar para alterar os elementos da página.
 
-const listaSelecaoPokemons = 
+const listaSelecaoPersonagens = 
 document.querySelectorAll('.pokemon')
 
-const pokemonsCard = 
-document.querySelectorAll('.cartao-pokemon')
+const Card = 
+document.querySelectorAll('.cartao-personagem')
 
 
-listaSelecaoPokemons.forEach(pokemon => {
+listaSelecaoPersonagens.forEach(pokemon => {
     pokemon.addEventListener('click', () =>{
         //Remover a classe "aberto" só do cartão que está aberto.
 
